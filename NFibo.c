@@ -4,6 +4,10 @@
 #include <stdio.h>
 
 /**
+ * https://en.wikipedia.org/wiki/Fibonacci_number
+ * https://www.livescience.com/37470-fibonacci-sequence.html
+ * 
+ * Pseudocódigo
  * NthFibonacci()
  *      nth <- ler();
  *      imprime(fib(nth));
@@ -13,9 +17,9 @@
  *      f1 <- 1;
  *      i <- 2;      
  *      Enquanto i <= nth fazer:
- *          fn <- f0 + f1
+ *          f <- f0 + f1
  *          f0 <- f1
- *          f1 <- fn
+ *          f1 <- f
  *          i <- i +1
  *      retorna(fn);
 */
